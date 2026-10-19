@@ -14,5 +14,6 @@ if (!page.value) {
   <ContentRenderer
     v-if="page"
     :value="page"
+    class="prose prose-gray max-w-none prose-a:text-emerald-600 hover:prose-a:text-emerald-700"
   />
 </template>
